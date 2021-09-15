@@ -1,7 +1,7 @@
 
 /*=======================
 	Header CSS
-=========================*/ 
+=========================*/
 #header {
 	top: 0;
 	width: 100%;
@@ -64,7 +64,6 @@
 	top: 0;
 	left: 50%;
 	right: 50%;
-	
 	border-radius: 0 0 10px 10px;
 	content: "";
 	height: 3px;
@@ -108,7 +107,7 @@
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-#header .nav li.active a i, 
+#header .nav li.active a i,
 #header .nav li:hover a i {
 	opacity: 1;
 	visibility: visible;
@@ -140,7 +139,7 @@
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
-} 
+}
 #header .nav li ul li{
 	margin-right:0px;
 }
@@ -153,7 +152,7 @@
 #header .nav li ul li a:after{
 	display:none;
 }
-#header .nav li.active ul i, 
+#header .nav li.active ul i,
 #header .nav li:hover ul i{
 	color:#353535;
 }
@@ -269,7 +268,7 @@
 	margin:0;
 	padding:0;
 }
-#header.sidenav .nav li a, 
+#header.sidenav .nav li a,
 #header.sidenav .logo a {
 	color: #fff;
 }
@@ -342,13 +341,10 @@
 #header.normal .logo a {
 	color: #353535;
 }
-/*=======================
-	End Header
-=========================*/ 
 
 /*=======================
 	Personal CSS
-=========================*/  
+=========================*/
 #personal-area {
 	/*background-image: url('images/image3.png'); */
 	background-size: cover;
@@ -378,7 +374,6 @@ video{
 	position: relative;
 	z-index: 3;
 }
- 
 #personal-area .personal-text {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -394,7 +389,6 @@ video{
 	height: 680px;
 	text-align: center;
 }
-
 /* Personal Animate Text */
 #personal-area .personal-text h1 {
 	color: #fff;
@@ -433,7 +427,6 @@ video{
 	padding: 13px 35px;
 	overflow:hidden;
 	font-size: 15px;
-	 
 }
 #personal-area .btn{
 	top: 20px;
@@ -467,7 +460,6 @@ video{
 #personal-area .personal-text .btn:last-child{
 	margin:0;
 }
- 
 
 /*=======================
 	About Me CSS
@@ -675,9 +667,6 @@ video{
 	position:absolute;
 	bottom:0
 }
-/*=======================
-	End About Me
-=========================*/
 
 /*=======================
 	Service CSS
@@ -732,632 +721,10 @@ video{
 #my-service .single-service.active p{
 	color:#fff;
 }
-/*=======================
-	End Service
-=========================*/
 
-/*=======================
-    Portfolio CSS
-=========================*/
-#portfolio {
-	background: #fff;
-	overflow: hidden;
-}
-#portfolio .container-fluid{
-	padding:0;
-}
-#portfolio .row.stylex {
-	margin: 0;
-}
-#portfolio .col-fix{
-	padding:0;
-}
-#portfolio .portfolio-nav {
-	text-align: center;
-	margin: 30px 0 60px;
-}
-#portfolio .portfolio-nav ul li {
-	display: inline-block;
-	margin-right: 15px;
-	position: relative;
-	padding: 8px 15px;
-	border-radius: 5px;
-	font-size: 14px;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	cursor: pointer;
-	text-transform: capitalize;
-	text-transform: uppercase;
-	font-weight: 600;
-}
-#portfolio .portfolio-nav ul li:last-child{
-	margin:0;
-}
-#portfolio .portfolio-nav ul li.active,
-#portfolio .portfolio-nav ul li:hover{
-	color:#fff;
-}
-#portfolio .portfolio-nav ul li span {
-	position: absolute;
-	top: -31px;
-	border-radius: 5px;
-	font-size: 13px;
-	line-height: 20px;
-	opacity: 0;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	color: #fff;
-	opacity: 0;
-	visibility: hidden;
-	padding: 2px 10px;
-	font-size: 12px;
-	-webkit-transform:translateY(-100%);
-	-moz-transform:translateY(-100%);
-	transform:translateY(-100%);
-}
-#portfolio .portfolio-nav ul li span::before {
-	position: absolute;
-	left: 50%;
-	bottom: -5px;
-	content: "";
-	border-top: 5px solid;
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;
-	margin-left: -5px;
-}
-#portfolio .portfolio-nav ul li.active span,
-#portfolio .portfolio-nav ul li:hover span{
-	opacity:1;
-	visibility:visible;
-	transform:translateY(0%);
-}
-#portfolio .portfolio-nav ul li i {
-	margin-right: 10px;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-#portfolio .portfolio-nav ul li.active i,
-#portfolio .portfolio-nav ul li:hover i{
-	color:#fff;
-}
-#portfolio .no-margin{
-	margin:0;
-}
-
-/* Portfolio Latest */
-#portfolio .portfolio-single{
-	position:relative;
-	transition:all 0.3s ease;
-	overflow:hidden;
-}
-#portfolio .portfolio-single .btn {
-	position: absolute;
-	width: 42px;
-	height: 42px;
-	line-height: 42px;
-	font-size: 40px;
-	text-align: center;
-	color: #fff;
-	z-index: 33;
-	cursor: pointer;
-	border-radius: 0px;
-	bottom: 0;
-	right: -100px;
-	padding: 0;
-}
-#portfolio .portfolio-single:hover .btn{
-	right:0;
-}
-#portfolio .portfolio-head{
-	position:relative;
-} 
-#portfolio .portfolio-head::before {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(5, 5, 5, 0.9);
-	content: "";
-	visibility: hidden;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	-webkit-transform:translateX(-100%);
-	-moz-transform:translateX(-100%);
-	transform:translateX(-100%);
-	left: 0;
-	z-index: 11;
-}
-#portfolio .portfolio-single:hover .portfolio-head:before{
-	visibility:visible;
-	-webkit-transform:translateY(0%);
-	-moz-transform:translateX(0%);
-	transform:translateX(0%);
-}
-#portfolio .portfolio-head img{
-	width:100%;
-	z-index:10;
-}
-#portfolio .portfolio-single:hover img{
-	transform:scale(1.1);
-}
-#portfolio .portfolio-hover {
-	position: absolute;
-	top: 0;
-	z-index: 20;
-	color: #fff;
-	top: 50%;
-	text-align: center;
-	padding-left: 30px;
-	padding-right: 30px;
-	opacity: 0;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#portfolio .portfolio-single:hover .portfolio-hover {
-	opacity:1;
-	visibility:visible;
-}
-#portfolio .portfolio-hover h4 {
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 20px;
-	margin: 5px 0 15px;
-	position: relative;
-	top: -20px;
-	-webkit-transition:all 1s ease;
-	-moz-transition:all 1s ease;
-	transition:all 1s ease;
-}
-#portfolio .portfolio-single:hover h4{
-	top:0;
-}
-#portfolio .portfolio-hover p{
-	position: relative;
-	bottom: -20px;
-	-webkit-transition:all 1s ease;
-	-moz-transition:all 1s ease;
-	transition:all 1s ease;
-}
-#portfolio .portfolio-single:hover p{
-	bottom:0;
-}
-#portfolio .portfolio-hover span {
-	font-size: 16px;
-	display: block;
-	font-style: italic;
-	margin-bottom: 5px;
-	text-transform: capitalize;
-}
-#portfolio .portfolio-hover h4 a{
-	color:#fff;
-}
-#portfolio .portfolio-hover p{
-	color:#fff;
-}
-
-
-
-
-
-
-#portfolio .portfolio-hover .button {
-	margin-top: 15px;
-	position: relative;
-	bottom: -20px;
-	-webkit-transition:all 1s ease;
-	-moz-transition:all 1s ease;
-	transition:all 1s ease;
-}
-#portfolio .portfolio-single:hover .button{
-	bottom:0;
-}
-#portfolio .portfolio-hover .button a {
-	color: #333;
-	background: #fff;
-	display: inline-block;
-	margin: 0 5px;
-	border-radius: 100%;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-}
-#portfolio .portfolio-hover .button a:hover,
-#portfolio .portfolio-hover .button .primary{
-	color:#fff;
-}
-#portfolio .portfolio-hover .button .primary:hover{
-	background:#fff;
-	color:#333;
-}
-#portfolio .button{
-	text-align:center;
-}
-#portfolio .button .btn {
-	margin-top: 60px;
-	padding: 15px 38px;
-	border-radius: 50px;
-	font-weight: 600;
-}
-#portfolio .button .btn:hover,
-#portfolio .button .btn:focus,
-#portfolio .button .btn:active{
-	background:#353535;
-	color:#fff;
-}
-#portfolio .button .btn i{
-	margin-left:5px;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
-}
-#portfolio .button .btn:hover i{
-	  -webkit-animation-name: hvr-wobble-horizontal;
-  animation-name: hvr-wobble-horizontal;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-
-/* Portfolio Archive */
-#portfolio.archive {
-	padding:0;
-	background: #f5f5f5;
-}
-#portfolio.archive .portfolio-nav {
-	margin: 18px 0px;
-}
-#portfolio.archive  .portfolio-nav ul li{
-	color:#fff;
-}
-#portfolio.archive .portfolio-nav ul li.active,
-#portfolio.archive .portfolio-nav ul li:hover{
-	background:#fff;
-	color:#353535;
-}
-#portfolio.archive .portfolio-nav ul li.active i,
-#portfolio.archive .portfolio-nav ul li:hover i{
-	color:#353535;
-}
-#portfolio.archive .portfolio-nav ul li span{
-	display:none;
-}
-#portfolio .portfolio-nav ul li i{
-	color:#fff
-}
-#portfolio.archive .portfolio-nav ul li span::before{
-	border-top-color:#fff;
-}
-#portfolio.archive.column-4 .portfolio-hover h4{
-	font-size:15px;
-}
-#portfolio.archive.column .portfolio-inner{
-	padding:50px 0;
-}
-/* Portfolio Single */
-#portfolio.single{
-	background:#f5f5f5;
-}
-#portfolio .portfolio-single.slider{
-	background:#fff;
-	padding:10px;
-}
-#portfolio.single .content,.portfolio-widget{
-	margin-top:30px;
-}
-#portfolio.single .content h2 {
-	position: relative;
-	display: inline-block;
-	text-transform: uppercase;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
-	font-size: 24px;
-}
-#portfolio.single .content h2:before{
-	position: absolute;
-	bottom: -2px;
-	content: "";
-	left: 0%;
-	width: 30%;
-	height: 4px;
-}
-#portfolio.single .content p{
-	margin-bottom:20px;
-}
-#portfolio.single .content p:last-child{
-	margin:0;
-}
-#portfolio.single .portfolio-single img{
-	transform:scale(1.0)
-}
-#portfolio.single .portfolio-widget{
-	padding:20px;
-}
-#portfolio.single .single-widget {
-	margin-bottom: 20px;
-	position:relative;
-	padding-left:50px;
-}
-#portfolio.single .single-widget:last-child{
-	margin:0;
-}
-#portfolio.single .single-widget h4 {
-	color: #fff;
-	margin-bottom: 5px;
-}
-#portfolio.single .single-widget i {
-	margin-right: 5px;
-	position: absolute;
-	left: 0;
-	font-size: 20px;
-	color: #fff;
-	top: 12px;
-}
-#portfolio.single .single-widget a {
-	color: #fff;
-}
-#portfolio.single .portfolio-single.slider .owl-nav div {
-	width: 40px;
-	height: 32px;
-	border-radius: 0px;
-	opacity: 1;
-	margin: 0;
-	border-right: 1px solid #fff;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
-}
-#portfolio.single .portfolio-single.slider .owl-nav div:hover{
-	background:#333;
-}
-#portfolio.single .portfolio-single.slider .owl-nav div:last-child{
-	border:0px;
-}
-#portfolio.single .owl-nav {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left: -40px;
-}
-#portfolio .portfolio-related{
-	margin-top:30px;
-	cursor:pointer;
-}
-/*=======================
-    End Portfolio
-=========================*/
-
- 
-/*=======================
-	Timeline CSS
-=========================*/
-#my-timeline{
-	background:#f5f5f5;
-}
-#my-timeline .section-title{
-	margin-bottom:50px;
-}
-#my-timeline .timeline-inner {
-	position: relative;
-	padding: 20px 0;
-}
-#my-timeline .timeline-inner:before{
-	content: "";
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	margin-left: -2px;
-	position: absolute;
-	display: block;
-	height: 100%;
-	width: 4px;
-	left: 50%;
-	top: 0;
-}
-#my-timeline .single-timeline {
-	padding-right: 120px;
-}
-#my-timeline .single-main:nth-child(2n) .single-timeline{
-	padding-right:0px;
-	padding-left:120px;
-}
-#my-timeline .single-timeline .single-content {
-	background: #fff;
-	padding: 25px;
-	width: 50%;
-	position: relative;
-	-webkit-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
-	-moz-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
-	box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
-}
-#my-timeline .single-main:nth-child(2n) .single-timeline .single-content {
-	margin-left: 50.4%;
-}
-#my-timeline .single-timeline .single-content:before {
-	border: 15px solid transparent;
-	border-left-color: #ccc;
-	right: -31px;
-	top: 29px;
-	content:"";
-	position:absolute;
-	content:"";
-}
-#my-timeline .single-main:nth-child(2n) .single-timeline .single-content:before{
-	right: auto;
-	left:-31px;
-	border-left-color: transparent;
-	border-right-color: #ccc;
-}
-#my-timeline .single-timeline .single-content:after {
-	border: 15px solid transparent;
-	border-left-color: #fff;
-	right: -30px;
-	top: 26px;
-	content:"";
-	position:absolute;
-	content:"";
-}
-#my-timeline .single-main:nth-child(2n) .single-timeline .single-content:after{
-	left: -30px;
-	border-left-color: transparent;
-	border-right-color: #fff;
-	right:auto;
-}
-#my-timeline .single-timeline .date {
-	position: absolute;
-	right: -90px;
-	padding: 5px;
-	border-radius: 5px;
-	width: 60px;
-	text-align: center;
-	font-weight: 700;
-}
-#my-timeline .single-main:nth-child(2n) .single-timeline .date {
-	left: -93px;
-	right: auto;
-}
-#my-timeline .single-timeline .date p{
-	color: #fff;
-	margin:0;
-}
-#my-timeline .single-timeline h2 {
-	font-size: 18px;
-	position: relative;
-	padding-bottom: 12px;
-	margin-bottom: 12px;
-	display: inline-block;
-	text-transform: uppercase;
-}
-#my-timeline .single-timeline h2::before {
-	position: absolute;
-	bottom: -1px;
-	content: "";
-	left: 0%;
-	width: 50px;
-	height: 2px;
-}
-/*=======================
-	End Timeline
-=========================*/ 
- 
-/*=======================
-	Testimonial CSS
-=========================*/
-#testimonials {
-	background: url('images/back2.png');
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-}
-#testimonials .section-title h1{
-	color:#fff;
-}
-#testimonials:before {
-	position:absolute;
-	left:0;
-	top:0;
-	width:100%;
-	height:100%;
-	background:#000;
-	opacity:0.8;
-	content:"";
-}
-#testimonials .testimonial-carousel{
-	position:relative;
-}
-#testimonials .single-testimonial {
-	text-align: center;
-	padding: 20px 100px 0;
-	border-radius: 10px;
-}
-#testimonials .testimonial-content {
-	position: relative;
-}
-#testimonials .testimonial-content i {
-	font-size: 30px;
-	position: absolute;
-	left: 0;
-	font-size: 60px;
-	z-index: -1;
-	color: #bbb;
-	opacity: 0.3;
-	top: -22px;
-}
-#testimonials .testimonial-content p {
-	color: #fff;
-}
-#testimonials .testimonial-info {
-	overflow: hidden;
-	margin-top: 20px;
-}
-#testimonials .testimonial-info img {
-	width: 80px;
-	position: relative;
-	display: inline-block;
-	height: 80px;
-	border: 2px solid #fff;
-}
-#testimonials .testimonial-info h6 {
-	font-size: 18px;
-	font-weight: 700;
-	color: #fff;
-	margin: 10px 0 0;
-	text-transform: uppercase;
-}
-#testimonials .testimonial-info span {
-	color: #fff;
-	position: relative;
-	display: block;
-	margin-top: 10px;
-	font-weight: 400;
-	font-size: 14px;
-}
-#testimonials .rating {
-	margin-top: 10px;
-}
-#testimonials .rating li{
-	display:inline-block;
-}
-#testimonials .owl-nav{}
-#testimonials .owl-nav div {
-	position: absolute;
-	top: 50%;
-	margin-top:-25px;
-	padding: 0;
-	font-size: 50px;
-	border-radius:100%;
-	background:transparent;
-	background:transparent;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
-}
-#testimonials .owl-nav div:hover{
-	opacity:0.5;
-}
-#testimonials .owl-nav .owl-prev{
-	left:0;
-}
-#testimonials .owl-nav .owl-next{
-	right:0;
-}
-/*=======================
-	End Testimonial
-=========================*/
-
- 
 /*=======================
   Call to action CSS
-=========================*/ 
+=========================*/
 #call-action {
 	position: relative;
 	overflow: hidden;
@@ -1424,90 +791,14 @@ video{
 #call-action .btn:hover{
 	color:#fff;
 }
-/*=======================
-  End Call to action
-=========================*/ 
 
 /*=======================
   Contact CSS
 =========================*/
 #contact {
-	position: relative;
 	top: 215px;
 	z-index: 43;
 	margin-top: -215px;
-}
-#contact .form {
-	margin-top: 30px;
-	background: #fff;
-	padding: 15px;
-	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
-	-moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
-	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
-	height: 355px;
-}
-#contact .form-group {
-	position: relative;
-	display: block;
-	margin: 0 0 25px;
-}
-#contact .form-group i {
-	position: absolute;
-	font-size: 16px;
-	padding: 15px 12px;
-}
-#contact .form-group input {
-	width: 100%;
-	height: 50px;
-	border: 1px solid #ddd;
-	padding-left: 10px;
-	border-radius: 5px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	font-weight: 400;
-}
-#contact .form-group textarea {
-	border: 1px solid #ddd;
-	padding: 10px;
-	width: 100%;
-	border-radius: 5px;
-	padding-left: 10px;
-	resize: none;
-	height: 173px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#contact .form-group input:hover,
-#contact .form-group input:focus,
-#contact .form-group textarea:hover{
-	outline:none;
-}
-#contact .form-group .button {
-	padding: 10px 30px;
-	font-size: 14px;
-	text-transform: uppercase;
-	display: inline-block;
-	border: 0px solid;
-	color:#fff;
-	border-radius:5px;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
-}
-#contact .form-group .button:hover{
-	background:#252525;
-}
-#contact .form-group .button i{
-	position:relative;
-	display:inline-block;
-	color:#fff;
-	margin-right:10px;
-	padding:0px;
-}
-#contact .form-group.button{
-	margin:0;
 }
 #contact .contact {
 	margin-top: 30px;
@@ -1516,7 +807,7 @@ video{
 	-moz-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.50);
 	box-shadow:0px 0px 4px rgba(0, 0, 0, 0.50);
 	padding: 20px;
-	height:355px;
+	height:300px;
 }
 #contact .single-address {
 	position: relative;
@@ -1553,75 +844,10 @@ video{
 #contact .single-address p{
 	color:#555;
 }
-/*=======================
-  End Contact
-=========================*/
-
-/*=======================
-  Clients CSS
-=========================*/
-#clients.section {
-	padding: 200px 0 70px;
-	background: #F8F8F8;
-	border-top: 3px solid;
-	background: url('images/back1.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-	background-attachment: fixed;
-}
-#clients::before {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	opacity: 0.8;
-	content: "";
-}
-#clients.style2{
-	padding:80px 0;
-}
-/*=======================
-  End Clients
-=========================*/
-
-/*=======================
-  Mail CSS
-=========================*/
-#mail {
-	background: #f5f5f5;
-	text-align: left;
-}
-#mail h2{
-	margin-bottom:20px;
-}
-#mail p {
-	font-size: 16px;
-}
-#mail .btn {
-	margin-top: 20px;
-	padding: 12px 35px;
-	background: #ED5F55;
-	color: #fff;
-	display: inline-block;
-	border-radius:5px;
-}
-#mail .btn:hover{
-	background:#353535;
-}
-#mail .btn i{
-	margin-right:5px;
-	font-size:15px;
-}
-/*=======================
-  End Mail
-=========================*/
 
 /*=======================
   Footer Top CSS
-=========================*/ 
+=========================*/
 #footer-top {
 	background: #fff;
 	text-align: center;
@@ -1690,9 +916,6 @@ video{
 #footer-top .news-form  button:hover{
 	background:transparent;
 }
-/*=======================
-  End Footer Top
-=========================*/ 
 
 /*=======================
   Footer CSS
@@ -1745,160 +968,3 @@ video{
 	font-size:15px;
 	color: #fff;
 }
-/*=======================
-  End Footer
-=========================*/
-
-
-
-/*******BLOG******/
-
-#blog {
-    padding-bottom: 2rem;
-}
-
-article, aside, footer, header, nav, section {
-    display: block;
-}
-
-.section-header {
-	text-align: center;
-   /* padding: 2rem 0;
-    padding-right: 550px;
-    padding-left: 550px; */
-}
-
-* {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-}
-
-
-/***Timeline Button CV****/
-
-
-#my-timeline .timeline-hover .button {
-	margin-top: 15px;
-	position: relative;
-	bottom: -20px;
-	-webkit-transition:all 1s ease;
-	-moz-transition:all 1s ease;
-	transition:all 1s ease;
-}
-#my-timeline .timeline:hover .button{
-	bottom:0;
-}
-#my-timeline .timeline-hover .button a {
-	color: #333;
-	background: #fff;
-	display: inline-block;
-	margin: 0 5px;
-	border-radius: 100%;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-}
-#my-timeline .timeline-hover .button a:hover,
-#my-timeline .timeline-hover .button .primary{
-	color:#fff;
-}
-#my-timeline .timeline-hover .button .primary:hover{
-	background:#fff;
-	color:#333;
-}
-#my-timeline .button{
-	text-align:center;
-}
-#my-timeline .button .btn {
-	margin-top: 60px;
-	padding: 15px 38px;
-	border-radius: 50px;
-	font-weight: 600;
-}
-#my-timeline .button .btn:hover,
-#my-timeline .button .btn:focus,
-#my-timeline .button .btn:active{
-	background:#353535;
-	color:#fff;
-}
-#my-timeline .button .btn i{
-	margin-left:5px;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
-}
-#my-timeline .button .btn:hover i{
-	  -webkit-animation-name: hvr-wobble-horizontal;
-  animation-name: hvr-wobble-horizontal;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-
-
-/****BLOG BTN READ MORE****/
-#blog .blog-hover .button {
-	margin-top: 15px;
-	position: relative;
-	bottom: -20px;
-	-webkit-transition:all 1s ease;
-	-moz-transition:all 1s ease;
-	transition:all 1s ease;
-}
-#blog .blog:hover .button{
-	bottom:0;
-}
-#blog .blog-hover .button a {
-	color: #333;
-	background: #fff;
-	display: inline-block;
-	margin: 0 5px;
-	border-radius: 100%;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-}
-#blog .blog-hover .button a:hover,
-#blog .blog-hover .button .primary{
-	color:#fff;
-}
-#blog .blog-hover .button .primary:hover{
-	background:#fff;
-	color:#333;
-}
-#blog .button{
-	text-align:center;
-}
-#blog .button .btn {
-	margin-top: 60px;
-	padding: 15px 38px;
-	border-radius: 50px;
-	font-weight: 600;
-}
-#blog .button .btn:hover,
-#blog .button .btn:focus,
-#blog .button .btn:active{
-	background:#353535;
-	color:#fff;
-}
-#blog .button .btn i{
-	margin-left:5px;
-	-webkit-transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	transition:all 0.3s ease;
-}
-#blog .button .btn:hover i{
-	  -webkit-animation-name: hvr-wobble-horizontal;
-  animation-name: hvr-wobble-horizontal;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-
-
